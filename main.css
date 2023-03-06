@@ -149,7 +149,7 @@ h1
     width: 530px;
     height: 500px;
     margin-left: 100px;
-    font-family: 'Playfair Display', serif;
+    
     font-weight: 400;
 }
 
@@ -201,6 +201,46 @@ footer
 #servicesDropdown
 {
     color: white;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: goldenrod;
+}
+
+#arrowUp
+{
+    font-size: 30px; 
+    cursor: pointer; 
+    position: relative; 
+    top: 135px; 
+    left: 1200px;
+    color: white;
+}
+
+#arrowUp:hover
+{
+    color: goldenrod;
+}
+
+#servicesImg
+{
+    width: 400px;
+    height: 450px;
+}
+
+#servicesHorizontalLine
+{
+    border-top: 1px solid black; 
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 653px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width:1300px) 
@@ -341,6 +381,24 @@ footer
 
 @media screen and (max-width:600px) 
 {
+    #imgText1,#imgText2,#imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -120px;
+        font-size: 21px;
+        color: white;
+    }
+
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -100px;
+        font-size: 21px;
+        color: white;
+    }
+
     #horizontalLine
     {
       border-top: 1px solid black; 
@@ -360,14 +418,42 @@ footer
     #aboutUsText
     {
         margin-left: 320px;
-        width: 400px;
-        height: 550px;
+        width: 360px;
+        height: 620px;
+        padding-right: 15px;
     }
 
     #diamondImage
     {
         margin-top: 20px;
         margin-left: 320px;
+        width: 360px;
+        height: 470px;
+    }
+
+    #ringIntroImg
+    {
+        width: 360px;
+        height: 470px;
+        margin-left: 10px;
+    }
+
+    #servicesImg
+    {
+        width: 360px;
+        height: 470px;
+    }
+
+    #servicesHorizontalLine
+    {
+        margin-left: 157px;
+    }
+
+    #arrowUp
+    {
+        position: relative;
+        top: 190px;
+        left: 230px;
     }
 }
   
