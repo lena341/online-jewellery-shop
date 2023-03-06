@@ -15,10 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">  
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Jewellery shop</title>
     <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
     <link rel="icon" type="image" href="img_569349.png">
 </head>
 <body>
@@ -51,7 +51,7 @@
  
   <div class="container-fluid" style="padding: 0px 0px 10px 0px;">
     <img src="edgar-soto-gb0BZGae1Nk-unsplash.jpg" width="100%" height="auto" style="margin-top: -30px;">
-    <h2 id="imgText1">DIAMONDS</h2>
+    <h1 id="imgText1">DIAMONDS</h1>
     <h1 id="imgText2">ARE FOREVER</h1>
   </div>
 
@@ -76,8 +76,7 @@
 
 <div class="container-fluid" style="padding: 10px 10px 60px 10px;">
    <div id="ringIntro">
-      <h4>THE</h4>
-      <h3>FINEST JEWELLERY</h3>
+      <h3>THE <b>FINEST JEWELLERY</b></h3>
       <h4>MADE FOR YOU</h4>
       <div style="border-top: 1px solid black; width: 50px;"></div><br>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -101,18 +100,19 @@
  </div>
 
 <div class="container-fluid" style="padding: 170px 20px 40px 20px;">
-   <h2 class="text-center" style="text-decoration: underline; padding-bottom: 70px;">SERVICES</h2>
+   <h2 class="text-center">SERVICES</h2>
+   <div id="servicesHorizontalLine"></div>
   <div class="row">
       <div class="col-md-4">
-        <a href="#"><img src="hanny-hilary-RD5GI4A4bu4-unsplash.jpg" title="bracelet" alt="bracelet" width="400" height="450"></a><br>
+        <a href="#"><img id="servicesImg" src="hanny-hilary-RD5GI4A4bu4-unsplash.jpg" title="bracelet" alt="bracelet"></a><br>
         <a href="#" id="servicesLink"><p>Visit a boutique</p></a>
       </div>
       <div class="col-md-4">
-        <a href="#"><img src="hanny-hilary-RD5GI4A4bu4-unsplash.jpg" title="bracelet" alt="bracelet" width="400" height="450"></a><br>
+        <a href="#"><img id="servicesImg" src="hanny-hilary-RD5GI4A4bu4-unsplash.jpg" title="bracelet" alt="bracelet"></a><br>
         <a href="#" id="servicesLink"><p>Product care</p></a>
       </div>
       <div class="col-md-4">
-        <a href="#"><img src="hanny-hilary-RD5GI4A4bu4-unsplash.jpg" title="bracelet" alt="bracelet" width="400" height="450"></a><br>
+        <a href="#"><img id="servicesImg" src="hanny-hilary-RD5GI4A4bu4-unsplash.jpg" title="bracelet" alt="bracelet"></a><br>
         <a href="#" id="servicesLink"><p>Product warranty</p></a>
       </div>
    </div>
@@ -145,20 +145,21 @@
   </div>
   <section style="padding-top: 120px;padding-bottom: 27px;" class="text-center">
      <h3 style="padding-bottom: 20px;font-size: 18px; color: rgb(167, 127, 28);">Follow us</h3>
-     <a href="#" style="color: white;"><i class="bi bi-instagram" style="font-size:20px;margin-right: 55px;"></i></a>
-     <a href="#" style="color: white;"><i class="fa fa-facebook" aria-hidden="true" style="font-size:20px;margin-right: 55px;"></i></a>
-     <a href="#" style="color: white;"><i class="bi bi-youtube" style="font-size:20px;margin-right: 55px;"></i></a>
-     <a href="#" style="color: white;"><i class="bi bi-twitter" style="font-size:20px;margin-right: 55px;"></i></a>
-     <a href="#" style="color: white;"><i class="fa fa-pinterest-p" aria-hidden="true" style="font-size:20px;margin-right: 55px;"></i></a>
-     <a href="#" style="color: white;"><i class="fa fa-weixin" aria-hidden="true" style="font-size:20px;margin-right: 55px;"></i></a>
-     <a href="#" style="color: white;"><i class="bi bi-line" style="font-size:20px;margin-right: 55px;"></i></a>
-     <a href="#" style="color: white;"><i class="bi bi-linkedin" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="bi bi-instagram" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="fa fa-facebook" aria-hidden="true" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="bi bi-youtube" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="bi bi-twitter" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="fa fa-weixin" aria-hidden="true" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="bi bi-line" style="font-size:20px;margin-right: 55px;"></i></a>
+     <a href="#"><i class="bi bi-linkedin" style="font-size:20px;margin-right: 55px;"></i></a>
   </section>
+  <a id="arrowUp" class="btn" type="button" onclick="topFunction()"><i class="bi bi-arrow-up-circle-fill"></i></a>
 </footer>
 <div id="infoSection" style="padding: 5px 140px 0px 130px;">
    <div class="row" style="padding-top: 20px;">
      <div class="col-sm-5">
-        <div class="dropdown">
+        <div class="dropup">
            <a class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="color: white;">SERVICES <span class="caret"></span></a>
            <ul class="dropdown-menu" id="servicesDropdown">
              <li><a href="#">ACCESSIBILITY</a></li>
@@ -168,19 +169,18 @@
         </div>
      </div>
      <div class="col-sm-5">
-        <div class="dropdown">
+        <div class="dropup">
           <a class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="color: white;">INFORMATION <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">GENERAL CONDITIONS OF SALE</a></li>
             <li><a href="#">LEGAL TERMS</a></li>
             <li><a href="#">PRIVACY POLICY</a></li>
             <li><a href="#">COOKIES SETTINGS</a></li>
-            <a href="https://www.flaticon.com/free-icons/diamond" title="diamond icons">Diamond icons created by prettycons - Flaticon</a>
           </ul>
          </div>
      </div>
      <div class="col-sm-2">
-      <div class="dropdown">
+      <div class="dropup">
         <a class="btn dropdown-toggle" type="button" data-toggle="dropdown" style="color: white;">CREDITS <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li>Photo by <a href="https://unsplash.com/ja/@hannyhilary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">hanny hilary</a> on <a href="https://unsplash.com/photos/RD5GI4A4bu4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
@@ -189,9 +189,10 @@
           <li>Photo by <a href="https://unsplash.com/@edgardo1987?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Edgar Soto</a> on <a href="https://unsplash.com/photos/gb0BZGae1Nk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></li>
         </ul>
        </div>
-     </div>
-   </div>
+       </div>
+    </div>
 </div>
+
 
  <!-- Swiper JS -->
  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
