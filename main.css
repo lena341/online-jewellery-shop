@@ -719,13 +719,13 @@ a:hover
 
     #servicesHorizontalLine
     {
-        margin-left: 157px;
+        margin-left: 147px;
     }
 
     #arrowUp
     {
         position: relative;
-        top: 190px;
+        top: 170px;
         left: 230px;
     }
 
@@ -733,6 +733,11 @@ a:hover
     {
         margin-bottom: 30px;
         margin-top: 20px;
+    }
+    
+    #contactSection
+    {
+        padding-bottom: 15px;
     }
 }
   
