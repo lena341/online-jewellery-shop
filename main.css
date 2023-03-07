@@ -180,7 +180,7 @@ footer
     padding-left: 43px;
     padding-right: 43px;
     border-radius: 1px;
-    margin-top: 20px;
+    margin-top: 40px;
     color:rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
@@ -218,7 +218,7 @@ a:hover
     font-size: 30px; 
     cursor: pointer; 
     position: relative; 
-    top: 135px; 
+    top: 125px; 
     left: 1200px;
     color: white;
 }
@@ -243,8 +243,26 @@ a:hover
     padding-bottom: 50px;
 }
 
-@media screen and (max-width:1300px) 
+@media screen and (max-width:1400px) 
 {
+    #imgText1,#imgText2
+    {
+        position: relative;
+        left: 30px;
+        top: -300px;
+        font-size: 35px;
+        color: white;
+    }
+
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -150px;
+        font-size: 35px;
+        color: white;
+    }
+     
     #horizontalLine
   {
     border-top: 1px solid black; 
@@ -262,16 +280,109 @@ a:hover
   {
       margin-left: 750px;
   }
+
+  #servicesHorizontalLine
+  {
+      margin-left: 580px;
+  }
+
+  #arrowUp
+  {
+      position: relative;
+      top: 123px;
+      left: 1080px;
+  }
+
+  #footerBtn
+  {
+      margin-bottom: 30px;
+      margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:1300px) 
+{
+    #imgText1,#imgText2
+    {
+        position: relative;
+        left: 30px;
+        top: -300px;
+        font-size: 35px;
+        color: white;
+    }
+
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -150px;
+        font-size: 35px;
+        color: white;
+    }
+     
+    #horizontalLine
+  {
+    border-top: 1px solid black; 
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 500px;
+  }
+
+  #aboutUs
+  {
+    margin-left: -100px;
+  }
+
+  #ringIntroImg
+  {
+      margin-left: 750px;
+  }
+
+  #servicesHorizontalLine
+  {
+      margin-left: 580px;
+  }
+
+  #arrowUp
+  {
+      position: relative;
+      top: 123px;
+      left: 1010px;
+  }
+
+  #footerBtn
+  {
+      margin-bottom: 30px;
+      margin-top: 20px;
+  }
 }
 
 @media screen and (max-width:1200px) 
 {
+    #imgText1,#imgText2
+    {
+        position: relative;
+        left: 30px;
+        top: -270px;
+        font-size: 35px;
+        color: white;
+    }
+
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -150px;
+        font-size: 35px;
+        color: white;
+    }
+
     #horizontalLine
     {
       border-top: 1px solid black; 
       width: 200px;
       margin-top: 10px;
-      margin-left: 400px;
+      margin-left: 480px;
     }
   
     #aboutUs
@@ -282,11 +393,47 @@ a:hover
     #ringIntroImg
     {
         margin-left: 620px;
+    }
+
+    #servicesHorizontalLine
+    {
+        margin-left: 520px;
+    }
+
+    #arrowUp
+    {
+        position: relative;
+        top: 123px;
+        left: 920px;
+    }
+
+    #footerBtn
+    {
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
 }
 
 @media screen and (max-width:1100px) 
 {
+    #imgText1,#imgText2
+    {
+        position: relative;
+        left: 30px;
+        top: -250px;
+        font-size: 30px;
+        color: white;
+    }
+
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -150px;
+        font-size: 30px;
+        color: white;
+    }
+     
     #horizontalLine
     {
       border-top: 1px solid black; 
@@ -304,16 +451,52 @@ a:hover
     {
         margin-left: 620px;
     }
+
+    #servicesHorizontalLine
+    {
+        margin-left: 460px;
+    }
+
+    #arrowUp
+    {
+        position: relative;
+        top: 120px;
+        left: 790px;
+    }
+
+    #footerBtn
+    {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
 }
 
 @media  screen and (max-width:1000px) 
 {
+    #imgText1,#imgText2
+    {
+        position: relative;
+        left: 30px;
+        top: -200px;
+        font-size: 25px;
+        color: white;
+    }
+
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -150px;
+        font-size: 25px;
+        color: white;
+    }
+
     #horizontalLine
     {
       border-top: 1px solid black; 
       width: 200px;
       margin-top: 10px;
-      margin-left: 400px;
+      margin-left: 360px;
     }
   
     #aboutUs
@@ -325,6 +508,24 @@ a:hover
     {
         margin-top: -80px;
         margin-left: 60px;
+    }
+     
+    #servicesHorizontalLine
+    {
+        margin-left: 390px;
+    }
+
+    #arrowUp
+    {
+        position: relative;
+        top: 130px;
+        left: 700px;
+    }
+
+    #footerBtn
+    {
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
 }
 
@@ -359,6 +560,25 @@ a:hover
     {
         margin-left: -30px;
     }
+     
+    #servicesHorizontalLine
+    {
+        margin-left: 355px;
+    }
+
+    #arrowUp
+    {
+        position: relative;
+        top: 130px;
+        left: 610px;
+    }
+
+    #footerBtn
+    {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-left: -40px;
+    }
 }
 
 @media screen and (max-width:800px) 
@@ -377,11 +597,62 @@ a:hover
         width: 400px;
         height: 550px;
     }
+
+    #imgText1,#imgText2
+    {
+        position: relative;
+        left: 30px;
+        top: -150px;
+        font-size: 21px;
+        color: white;
+    }
+
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -110px;
+        font-size: 21px;
+        color: white;
+    }
+
+    #servicesHorizontalLine
+    {
+        margin-left: 290px;
+    }
+
+    #arrowUp
+    {
+        position: relative;
+        top: 120px;
+        left: 520px;
+    }
+
+    #footerBtn
+    {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media  screen and (max-width:700px) 
+{
+    #servicesHorizontalLine
+    {
+        margin-left: 250px;
+    }
+    
+    #arrowUp
+    {
+        position: relative;
+        top: 150px;
+        left: 400px;
+    }
 }
 
 @media screen and (max-width:600px) 
 {
-    #imgText1,#imgText2,#imgText3
+    #imgText1,#imgText2
     {
         position: relative;
         left: 30px;
@@ -411,7 +682,7 @@ a:hover
     {
         margin-left: -40px;
         display: block;
-        width: 480px;
+        width: 450px;
         height: 500px;
     }
 
@@ -427,21 +698,23 @@ a:hover
     {
         margin-top: 20px;
         margin-left: 320px;
-        width: 360px;
-        height: 470px;
+        width: 330px;
+        height: 450px;
     }
 
     #ringIntroImg
     {
-        width: 360px;
-        height: 470px;
+        width: 330px;
+        height: 450px;
         margin-left: 10px;
     }
 
     #servicesImg
     {
-        width: 360px;
-        height: 470px;
+        width: 330px;
+        height: 450px;
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 
     #servicesHorizontalLine
@@ -454,6 +727,12 @@ a:hover
         position: relative;
         top: 190px;
         left: 230px;
+    }
+
+    #footerBtn
+    {
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
 }
   
