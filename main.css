@@ -29,6 +29,11 @@ h1
     font-size: 28px;
 }
 
+ul
+{
+    list-style-type: none;
+}
+
 #infoHeader
 {
     background-color: white;
@@ -60,20 +65,19 @@ h1
 {
     position: relative;
     color: white;
-    font-size: 30px;
-    top: -370px;
+    font-size: 50px;
+    top: -330px;
     left: 100px;
 }
 
 #imgText2
 {
     position: relative;
-    font-size: 30px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 40px;
-    top: -350px;
+    font-size: 55px;
+    top: -310px;
     left: 100px;
 }
 
@@ -84,8 +88,8 @@ h1
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 40px;
-    top: -250px;
+    font-size: 60px;
+    top: -200px;
     left: 100px;
 }
 
@@ -223,36 +227,87 @@ h1
 
 #aboutUsText
 {
-    background-color: rgb(237, 246, 255);width: 530px; height: 500px; margin-left: 700px;
+    background-color: rgb(237, 246, 255);
+    width: 530px; 
+    height: 500px; 
+    margin-left: 700px;
 }
 
 footer
 {
     background-color: black;
+}
+
+footer h3
+{
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+footer a
+{
+    font-size: 16px;
+    font-weight:500;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+footer p
+{
+    font-size: 18px;
+    font-weight: 500;
     color: white;
 }
 
 #footerBtn
 {
-    border: 1px solid white;
+    border: 1px solid goldenrod;
+    background-color: transparent;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 43px;
     padding-right: 43px;
     border-radius: 1px;
     margin-top: 40px;
-    color:rgb(0, 0, 0);
+    color:white;
     font-family: 'Montserrat', sans-serif;
 }
 
-#contactInfo, #locationInfo
+.followUsSection
 {
-    margin-top: -86px;
-    margin-left: 73px;
+    padding-top: 120px;
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+.followUsSection h3
+{
+    padding-bottom: 20px;
+    font-size: 20px; 
+    color: rgb(167, 127, 28);
+}
+
+.followUsSection a
+{
+    font-size:20px;
+    margin-right: 55px;
+}
+
+.followUsSection a:hover
+{
+    color: goldenrod;
 }
 
 #infoSection
 {
+    padding: 5px 140px 0px 130px;
     background-color: rgb(24, 24, 24);
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -263,16 +318,6 @@ footer
     color: white;
 }
 
-a
-{
-    color: white;
-}
-
-a:hover
-{
-    color: goldenrod;
-}
-
 #arrowUp
 {
     font-size: 30px; 
@@ -281,6 +326,7 @@ a:hover
     top: 125px; 
     left: 1200px;
     color: white;
+    
 }
 
 #arrowUp:hover
@@ -682,10 +728,6 @@ a:hover
         margin-top: 20px;
     }
 
-    #contactSection
-    {
-        padding-bottom: 15px;
-    }
 }
   
 
