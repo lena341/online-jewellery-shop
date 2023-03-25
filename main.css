@@ -231,10 +231,12 @@ ul
     width: 530px; 
     height: 500px; 
     margin-left: 700px;
+    padding-right: 10px;
 }
 
 footer
 {
+    padding: 70px 60px 70px 100px;
     background-color: black;
 }
 
@@ -275,7 +277,7 @@ footer p
     padding-left: 43px;
     padding-right: 43px;
     border-radius: 1px;
-    margin-top: 40px;
+    margin-top: 50px;
     color:white;
     font-family: 'Montserrat', sans-serif;
 }
@@ -326,7 +328,6 @@ footer p
     top: 125px; 
     left: 1200px;
     color: white;
-    
 }
 
 #arrowUp:hover
@@ -345,317 +346,6 @@ footer p
     opacity: 0.5;
 }
 
-@media screen and (max-width:1400px) 
-{
-    #imgText1,#imgText2
-    {
-        position: relative;
-        left: 30px;
-        top: -300px;
-        font-size: 35px;
-        color: white;
-    }
-
-    #imgText3
-    {
-        position: relative;
-        left: 30px;
-        top: -150px;
-        font-size: 35px;
-        color: white;
-    }
-     
-   #aboutUs
-  {
-    margin-left: -100px;
-  }
-
-  #ringIntroImg
-  {
-      margin-left: 750px;
-  }
-
-  #arrowUp
-  {
-      position: relative;
-      top: 123px;
-      left: 1080px;
-  }
-
-  #footerBtn
-  {
-      margin-bottom: 30px;
-      margin-top: 20px;
-  }
-}
-
-@media screen and (max-width:1300px) 
-{
-    #imgText1,#imgText2
-    {
-        position: relative;
-        left: 30px;
-        top: -300px;
-        font-size: 35px;
-        color: white;
-    }
-
-    #imgText3
-    {
-        position: relative;
-        left: 30px;
-        top: -150px;
-        font-size: 35px;
-        color: white;
-    }
-     
-  #aboutUs
-  {
-    margin-left: -100px;
-  }
-
-  #ringIntroImg
-  {
-      margin-left: 750px;
-  }
-  
-  #arrowUp
-  {
-      position: relative;
-      top: 123px;
-      left: 1010px;
-  }
-
-  #footerBtn
-  {
-      margin-bottom: 30px;
-      margin-top: 20px;
-  }
-}
-
-@media screen and (max-width:1200px) 
-{
-    #imgText1,#imgText2
-    {
-        position: relative;
-        left: 30px;
-        top: -270px;
-        font-size: 35px;
-        color: white;
-    }
-
-    #imgText3
-    {
-        position: relative;
-        left: 30px;
-        top: -150px;
-        font-size: 35px;
-        color: white;
-    }
-
-    #aboutUs
-    {
-      margin-left: -300px;
-    }
-  
-    #ringIntroImg
-    {
-        margin-left: 620px;
-    }
-
-    #arrowUp
-    {
-        position: relative;
-        top: 123px;
-        left: 920px;
-    }
-
-    #footerBtn
-    {
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-}
-
-@media screen and (max-width:1100px) 
-{
-    #imgText1,#imgText2
-    {
-        position: relative;
-        left: 30px;
-        top: -250px;
-        font-size: 30px;
-        color: white;
-    }
-
-    #imgText3
-    {
-        position: relative;
-        left: 30px;
-        top: -150px;
-        font-size: 30px;
-        color: white;
-    }
-     
-    #aboutUs
-    {
-      margin-left: -300px;
-    }
-  
-    #ringIntroImg
-    {
-        margin-left: 620px;
-    }
-
-    #arrowUp
-    {
-        position: relative;
-        top: 120px;
-        left: 790px;
-    }
-
-    #footerBtn
-    {
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-}
-
-@media  screen and (max-width:1000px) 
-{
-    #imgText1,#imgText2
-    {
-        position: relative;
-        left: 30px;
-        top: -200px;
-        font-size: 25px;
-        color: white;
-    }
-
-    #imgText3
-    {
-        position: relative;
-        left: 30px;
-        top: -150px;
-        font-size: 25px;
-        color: white;
-    }
-
-    #aboutUs
-    {
-      margin-left: -350px;
-    }
-  
-    #ringIntroImg
-    {
-        margin-top: -80px;
-        margin-left: 60px;
-    }
-     
-    #arrowUp
-    {
-        position: relative;
-        top: 130px;
-        left: 700px;
-    }
-
-    #footerBtn
-    {
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-}
-
-@media screen and (max-width:900px) 
-{
-    #diamondImage
-    {
-        margin-top: 20px;
-        margin-left: 410px;
-    }
-
-    #aboutUsText
-    {
-        margin-left: 350px;
-    }
-
-    #ringIntroImg
-    {
-        margin-top: -80px;
-        margin-left: 20px;
-    }
-
-    #ringIntro
-    {
-        margin-left: -30px;
-    }
-     
-    #arrowUp
-    {
-        position: relative;
-        top: 130px;
-        left: 610px;
-    }
-
-    #footerBtn
-    {
-        margin-bottom: 30px;
-        margin-top: 20px;
-        margin-left: -40px;
-    }
-}
-
-@media screen and (max-width:800px) 
-{
-    #aboutUsText
-    {
-        margin-left: 350px;
-        width: 400px;
-        height: 550px;
-    }
-
-    #imgText1,#imgText2
-    {
-        position: relative;
-        left: 30px;
-        top: -150px;
-        font-size: 21px;
-        color: white;
-    }
-
-    #imgText3
-    {
-        position: relative;
-        left: 30px;
-        top: -110px;
-        font-size: 21px;
-        color: white;
-    }
-
-    #arrowUp
-    {
-        position: relative;
-        top: 120px;
-        left: 520px;
-    }
-
-    #footerBtn
-    {
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-}
-
-@media  screen and (max-width:700px) 
-{
-    #arrowUp
-    {
-        position: relative;
-        top: 150px;
-        left: 400px;
-    }
-}
-
 @media screen and (max-width:600px) 
 {
     #imgText1,#imgText2
@@ -664,7 +354,6 @@ footer p
         left: 30px;
         top: -120px;
         font-size: 21px;
-        color: white;
     }
 
     #imgText3
@@ -673,7 +362,6 @@ footer p
         left: 30px;
         top: -100px;
         font-size: 21px;
-        color: white;
     }
 
     #ringIntro
@@ -686,16 +374,15 @@ footer p
 
     #aboutUsText
     {
-        margin-left: 320px;
-        width: 360px;
-        height: 620px;
-        padding-right: 15px;
+        width: 370px; 
+        height: 590px; 
+        margin-left: -20px;
     }
 
     #diamondImage
     {
-        margin-top: 20px;
-        margin-left: 320px;
+        margin-top: 30px;
+        margin-left: 10px;
         width: 330px;
         height: 450px;
     }
@@ -704,7 +391,8 @@ footer p
     {
         width: 330px;
         height: 450px;
-        margin-left: 10px;
+        margin-left: 30px;
+        margin-top: -10px;
     }
 
     #servicesImg
@@ -729,9 +417,170 @@ footer p
     }
 
 }
-  
 
+@media only screen and (min-width:600px) 
+{
+    #imgText1,#imgText2
+    {
+        position: relative;
+        left: 30px;
+        top: -160px;
+        font-size: 30px;
+    }
 
+    #imgText3
+    {
+        position: relative;
+        left: 30px;
+        top: -140px;
+        font-size: 35px;
+    }
 
+    #aboutUsText
+    {
+        width: 420px; 
+        height: 590px; 
+        margin-left: 40px;
+    }
 
+    #diamondImage
+    {
+        margin-top: 30px;
+        margin-left: 120px;
+        width: 370px;
+        height: 470px;
+    }
 
+    #ringIntro
+    {
+        margin-left: -20px;
+        display: block;
+        width: 450px;
+        height: 500px;
+    }
+
+    #ringIntroImg
+    {
+        width: 370px;
+        height: 470px;
+        margin-left: 70px;
+        margin-top: -10px;
+    }
+
+    #arrowUp
+    {
+        position: relative;
+        top: 170px;
+        left: 400px;
+    }
+}
+
+@media only screen and (min-width:800px) 
+{
+    #aboutUsText
+    {
+       width: 400px; 
+       height: 550px; 
+       margin-left: 320px;
+    }
+
+    #diamondImage
+    {
+       width: 330px;
+       height: 450px;
+       margin-top: -570px;
+       margin-left: -10px;
+    }
+
+    #ringIntroImg
+    {
+       width: 330px;
+       height: 450px;
+       margin-top: -460px;
+       margin-left: 420px;
+    }
+
+    #servicesImg
+    {
+       width: 240px;
+       height: 350px;
+    }
+
+    #arrowUp
+    {
+       position: relative; 
+       top: 140px; 
+       left: 620px;
+    }
+}
+
+@media only screen and (min-width:1300px) 
+{
+    #imgText1
+    {
+       position: relative;
+       font-size: 50px;
+       top: -330px;
+       left: 100px;
+    }
+
+    #imgText2
+    {
+       position: relative;
+       font-size: 55px;
+       top: -310px;
+       left: 100px;
+    }
+
+    #imgText3
+    {
+       position: relative;
+       font-size: 30px;
+       font-size: 60px;
+       top: -200px;
+       left: 100px;
+    }
+
+    #diamondImage
+    {
+       width: 400px;
+       height: 500px;
+       margin-top: -600px;
+       margin-left: 300px;
+    }
+    
+    #ringIntro
+    {
+       width: 530px;
+       height: 500px;
+       margin-left: 100px;
+    }
+
+    #ringIntroImg
+    {
+       width: 400px;
+       height: 500px;
+       margin-top: -460px;
+       margin-left: 850px;
+    }
+
+    #aboutUsText
+    {
+       width: 530px; 
+       height: 500px; 
+       margin-left: 700px;
+    }
+
+    #arrowUp
+    {
+       position: relative; 
+       top: 125px; 
+       left: 1200px;
+    }
+
+    #servicesImg
+    {
+       width: 400px;
+       height: 450px;
+    }
+}
