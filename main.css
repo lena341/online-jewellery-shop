@@ -239,16 +239,16 @@ footer
 footer h3
 {
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     color: goldenrod;
     text-decoration: underline;
 }
 
 footer a
 {
-    font-size: 16px;
+    font-size: 19px;
     font-weight:500;
     color: white;
-    font-family: 'Montserrat', sans-serif;
 }
 
 footer a:hover
