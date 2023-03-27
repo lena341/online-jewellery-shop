@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body
 {
     overflow-x: hidden;
@@ -242,6 +246,7 @@ footer h3
     font-family: 'Montserrat', sans-serif;
     color: goldenrod;
     text-decoration: underline;
+    
 }
 
 footer a
@@ -276,6 +281,15 @@ footer p
     margin-top: 50px;
     color:white;
     font-family: 'Montserrat', sans-serif;
+}
+
+#footerId
+{
+    font-size: 10px;
+    color: white; 
+    padding-top: 20px;
+    margin-bottom: 0px; 
+    white-space: nowrap;
 }
 
 .followUsSection
@@ -321,8 +335,8 @@ footer p
     font-size: 30px; 
     cursor: pointer; 
     position: relative; 
-    top: 125px; 
-    left: 1200px;
+    float: right;
+    margin-right: -80px;
     color: white;
 }
 
@@ -402,8 +416,8 @@ footer p
     #arrowUp
     {
         position: relative;
-        top: 170px;
-        left: 230px;
+        top: -90px;
+        margin-right: -100px;
     }
 
     #footerBtn
@@ -463,13 +477,6 @@ footer p
         margin-top: -10px;
     }
 
-    #arrowUp
-    {
-        position: relative;
-        top: 170px;
-        left: 400px;
-    }
-
     #servicesImg
     {
        width: 350px;
@@ -484,16 +491,9 @@ footer p
        width: 350px;
        height: 450px;
     }
-
-    #arrowUp
-    {
-       position: relative; 
-       top: 140px; 
-       left: 610px;
-    }
 }
 
-@media only screen and (min-width:750px) 
+@media only screen and (min-width:770px) 
 {
     #servicesImg
     {
@@ -548,13 +548,6 @@ footer p
        width: 270px;
        height: 400px;
     }
-
-    #arrowUp
-    {
-       position: relative; 
-       top: 140px; 
-       left: 770px;
-    }
 }
 
 @media only screen and (min-width:1000px) 
@@ -602,13 +595,6 @@ footer p
     {
        width: 310px;
        height: 400px;
-    }
-
-    #arrowUp
-    {
-       position: relative; 
-       top: 140px; 
-       left: 790px;
     }
 }
 
@@ -674,13 +660,6 @@ footer p
        width: 380px;
        height: 460px;
     }
-
-    #arrowUp
-    {
-       position: relative; 
-       top: 140px; 
-       left: 1030px;
-    }
 }
 
 @media only screen and (min-width:1300px) 
@@ -740,16 +719,10 @@ footer p
        margin-left: 700px;
     }
 
-    #arrowUp
-    {
-       position: relative; 
-       top: 125px; 
-       left: 1200px;
-    }
-
-    #servicesImg
+   #servicesImg
     {
        width: 410px;
        height: 520px;
     }
 }
+
