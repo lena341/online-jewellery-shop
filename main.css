@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body
 {
     overflow-x: hidden;
@@ -162,7 +164,7 @@ ul
     color: black;
     font-size: 16px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
@@ -175,7 +177,7 @@ ul
     color: black;
     font-size: 16px;
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
@@ -190,7 +192,7 @@ ul
     padding: 10px 22px;
     font-size: 16px;
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
@@ -206,9 +208,9 @@ ul
 
 #ringIntro
 {
-    padding: 10px 30px 50px 60px;
-    width: 530px;
-    height: 500px;
+    padding: 10px 20px 50px 60px;
+    max-width: 530px;
+    max-height: 500px;
     margin-left: 100px;
     font-weight: 400;
 }
@@ -224,8 +226,8 @@ ul
 #aboutUsText
 {
     background-color: rgb(237, 246, 255);
-    width: 530px; 
-    height: 500px; 
+    max-width: 530px; 
+    max-height: 600px; 
     margin-left: 700px;
     padding-right: 10px;
 }
@@ -242,7 +244,6 @@ footer h3
     font-family: 'Montserrat', sans-serif;
     color: goldenrod;
     text-decoration: underline;
-    
 }
 
 footer a
@@ -269,10 +270,7 @@ footer p
 {
     border: 1px solid goldenrod;
     background-color: transparent;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 43px;
-    padding-right: 43px;
+    padding: 15px 43px;
     border-radius: 1px;
     margin-top: 50px;
     color:white;
@@ -380,8 +378,8 @@ footer p
 
     #aboutUsText
     {
-        width: 370px; 
-        height: 590px; 
+        max-width: 370px; 
+        max-height: 610px; 
         margin-left: -20px;
     }
 
@@ -421,7 +419,6 @@ footer p
         margin-bottom: 30px;
         margin-top: 20px;
     }
-
 }
 
 @media only screen and (min-width:600px) 
@@ -444,8 +441,8 @@ footer p
 
     #aboutUsText
     {
-        width: 420px; 
-        height: 590px; 
+        max-width: 420px; 
+        max-height: 590px; 
         margin-left: 40px;
     }
 
@@ -461,8 +458,8 @@ footer p
     {
         margin-left: -20px;
         display: block;
-        width: 450px;
-        height: 500px;
+        max-width: 450px;
+        max-height: 500px;
     }
 
     #ringIntroImg
@@ -518,8 +515,8 @@ footer p
 
     #aboutUsText
     {
-       width: 375px; 
-       height: 580px; 
+       max-width: 375px; 
+       max-height: 580px; 
        margin-left: 360px;
     }
 
@@ -566,8 +563,8 @@ footer p
 
     #aboutUsText
     {
-       width: 430px; 
-       height: 530px;
+       max-width: 430px; 
+       max-height: 530px;
        margin-left: 500px;
     }
 
@@ -623,8 +620,8 @@ footer p
 
     #aboutUsText
     {
-       width: 460px; 
-       height: 530px;
+       max-width: 460px; 
+       max-height: 530px;
        margin-left: 580px;
     }
 
@@ -638,8 +635,8 @@ footer p
 
     #ringIntro
     {
-       width: 530px;
-       height: 500px;
+       max-width: 530px;
+       max-height: 500px;
        margin-left: 100px;
     }
 
