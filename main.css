@@ -4,6 +4,9 @@ body
 {
     overflow-x: hidden;
     font-family: 'Crimson Text', serif;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: keep-all;
 }
 
 p
@@ -107,6 +110,11 @@ ul
     color: black;
     margin-left: 30px;
     font-size: 20px;
+}
+
+#readAboutUsBtn:hover
+{
+    box-shadow: 0 6px 6px 0 rgb(145, 173, 255);
 }
 
 #sent1
@@ -276,6 +284,11 @@ footer p
     margin-top: 50px;
     color:white;
     font-family: 'Montserrat', sans-serif;
+}
+
+#footerBtn:hover
+{
+    box-shadow: 2px 2px 2px 0 goldenrod;
 }
 
 #footerId
