@@ -47,6 +47,11 @@ ul
     list-style-type: none;
 }
 
+nav
+{
+    font-family: $headerFont;
+}
+
 #infoHeader
 {
     background-color: white;
@@ -374,6 +379,16 @@ footer p
 #servicesImg:hover
 {
     opacity: 0.5;
+}
+
+input
+{
+  color: $color1; 
+  background-color: transparent;
+  border-bottom: 1px solid $color2; 
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 @media screen and (max-width:600px) 
