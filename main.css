@@ -33,6 +33,10 @@ ul {
   list-style-type: none;
 }
 
+nav {
+  font-family: "Montserrat", sans-serif;
+}
+
 #infoHeader {
   background-color: white;
   position: fixed;
@@ -329,6 +333,15 @@ footer p {
 
 #servicesImg:hover {
   opacity: 0.5;
+}
+
+input {
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid goldenrod;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 @media screen and (max-width: 600px) {
