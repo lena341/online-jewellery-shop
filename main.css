@@ -37,7 +37,7 @@ nav {
   font-family: "Montserrat", sans-serif;
 }
 
-#infoHeader {
+#info-header {
   background-color: white;
   position: fixed;
   width: 100%;
@@ -54,14 +54,14 @@ nav {
   font-weight: 500;
 }
 
-#navbarLinks {
+#navbar-links {
   position: relative;
   top: 16px;
   background-color: transparent;
   font-family: "Montserrat", sans-serif;
 }
 
-#imgText1 {
+#img-text1 {
   position: relative;
   color: white;
   font-size: 50px;
@@ -69,7 +69,7 @@ nav {
   left: 100px;
 }
 
-#imgText2 {
+#img-text2 {
   position: relative;
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -79,7 +79,7 @@ nav {
   left: 100px;
 }
 
-#imgText3 {
+#img-text3 {
   position: relative;
   font-size: 30px;
   color: white;
@@ -90,14 +90,14 @@ nav {
   left: 100px;
 }
 
-#diamondImage {
+#diamond-image {
   width: 400px;
   height: 500px;
   margin-top: -600px;
   margin-left: 300px;
 }
 
-#readAboutUsBtn {
+#read-about-us-btn {
   background-color: transparent;
   border: 1px solid black;
   text-decoration: none;
@@ -106,7 +106,7 @@ nav {
   font-size: 20px;
 }
 
-#readAboutUsBtn:hover {
+#read-about-us-btn:hover {
   -webkit-box-shadow: 0 6px 6px 0 rgb(145, 173, 255);
           box-shadow: 0 6px 6px 0 rgb(145, 173, 255);
 }
@@ -163,7 +163,7 @@ nav {
   width: 100%;
 }
 
-.productDesc h3 {
+.product-description h3 {
   color: black;
   font-size: 16px;
   position: absolute;
@@ -175,7 +175,7 @@ nav {
   white-space: nowrap;
 }
 
-.productDesc h4 {
+.product-description h4 {
   color: black;
   font-size: 16px;
   position: absolute;
@@ -187,7 +187,7 @@ nav {
   white-space: nowrap;
 }
 
-.productDesc a {
+.product-description a {
   background-color: black;
   color: white;
   padding: 10px 22px;
@@ -201,11 +201,11 @@ nav {
   white-space: nowrap;
 }
 
-.productDesc a:hover {
+.product-description a:hover {
   color: goldenrod;
 }
 
-#ringIntro {
+#ring-intro {
   padding: 10px 20px 50px 60px;
   max-width: 530px;
   max-height: 500px;
@@ -214,14 +214,14 @@ nav {
   font-size: 23px;
 }
 
-#ringIntroImg {
+#ring-intro-img {
   width: 400px;
   height: 500px;
   margin-top: -460px;
   margin-left: 850px;
 }
 
-#aboutUsText {
+#about-us-text {
   background-color: rgb(237, 246, 255);
   max-width: 530px;
   max-height: 600px;
@@ -258,7 +258,7 @@ footer p {
   color: white;
 }
 
-#footerBtn {
+#footer-btn {
   border: 1px solid goldenrod;
   background-color: transparent;
   padding: 15px 43px;
@@ -268,12 +268,12 @@ footer p {
   font-family: "Montserrat", sans-serif;
 }
 
-#footerBtn:hover {
+#footer-btn:hover {
   -webkit-box-shadow: 2px 2px 2px 0 goldenrod;
           box-shadow: 2px 2px 2px 0 goldenrod;
 }
 
-#footerId {
+#footer-id {
   font-size: 10px;
   color: white;
   padding-top: 20px;
@@ -281,39 +281,39 @@ footer p {
   white-space: nowrap;
 }
 
-.followUsSection {
+.follow-us-section {
   padding-top: 120px;
   padding-bottom: 27px;
   text-align: center;
 }
 
-.followUsSection h3 {
+.follow-us-section h3 {
   padding-bottom: 20px;
   font-size: 20px;
   color: rgb(167, 127, 28);
 }
 
-.followUsSection a {
+.follow-us-section a {
   font-size: 20px;
   margin-right: 55px;
 }
 
-.followUsSection a:hover {
+.follow-us-section a:hover {
   color: goldenrod;
 }
 
-#infoSection {
+#info-section {
   padding: 5px 140px 0px 130px;
   background-color: rgb(24, 24, 24);
   color: white;
   font-family: "Montserrat", sans-serif;
 }
 
-#servicesDropdown {
+#services-dropdown {
   color: white;
 }
 
-#arrowUp {
+#arrow-up {
   font-size: 30px;
   cursor: pointer;
   position: relative;
@@ -322,17 +322,25 @@ footer p {
   color: white;
 }
 
-#arrowUp:hover {
+#arrow-up:hover {
   color: goldenrod;
 }
 
-#servicesImg {
+#services-img {
   width: 400px;
   height: 450px;
 }
 
-#servicesImg:hover {
+#services-img:hover {
   opacity: 0.5;
+}
+
+#services-link {
+  text-decoration: none;
+}
+
+#services-link:hover {
+  text-decoration: underline;
 }
 
 input {
@@ -345,270 +353,270 @@ input {
 }
 
 @media screen and (max-width: 600px) {
-  #imgText1, #imgText2 {
+  #img-text1, #img-text2 {
     position: relative;
     left: 30px;
     top: -120px;
     font-size: 21px;
   }
-  #imgText3 {
+  #img-text3 {
     position: relative;
     left: 30px;
     top: -100px;
     font-size: 21px;
   }
-  #ringIntro {
+  #ring-intro {
     margin-left: -40px;
     display: block;
     max-width: 450px;
     max-height: 500px;
   }
-  #aboutUsText {
+  #about-us-text {
     max-width: 370px;
     max-height: 610px;
     margin-left: -20px;
   }
-  #diamondImage {
+  #diamond-image {
     margin-top: 30px;
     margin-left: 10px;
     width: 330px;
     height: 450px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 330px;
     height: 450px;
     margin-left: 30px;
     margin-top: -10px;
   }
-  #servicesImg {
+  #services-img {
     width: 330px;
     height: 450px;
     padding-bottom: 10px;
     padding-top: 10px;
   }
-  #arrowUp {
+  #arrow-up {
     position: relative;
     top: -90px;
     margin-right: -100px;
   }
-  #footerBtn {
+  #footer-btn {
     margin-bottom: 30px;
     margin-top: 20px;
   }
 }
 @media only screen and (min-width: 600px) {
-  #imgText1, #imgText2 {
+  #img-text1, #img-text2 {
     position: relative;
     left: 30px;
     top: -160px;
     font-size: 30px;
   }
-  #imgText3 {
+  #img-text3 {
     position: relative;
     left: 30px;
     top: -140px;
     font-size: 35px;
   }
-  #aboutUsText {
+  #about-us-text {
     max-width: 420px;
     max-height: 590px;
     margin-left: 40px;
   }
-  #diamondImage {
+  #diamond-image {
     margin-top: 30px;
     margin-left: 120px;
     width: 370px;
     height: 470px;
   }
-  #ringIntro {
+  #ring-intro {
     margin-left: -20px;
     display: block;
     max-width: 450px;
     max-height: 500px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 370px;
     height: 470px;
     margin-left: 70px;
     margin-top: -10px;
   }
-  #servicesImg {
+  #services-img {
     width: 350px;
     height: 450px;
   }
 }
 @media only screen and (min-width: 700px) {
-  #servicesImg {
+  #services-img {
     width: 350px;
     height: 450px;
   }
 }
 @media only screen and (min-width: 770px) {
-  #servicesImg {
+  #services-img {
     width: 230px;
     height: 380px;
   }
 }
 @media only screen and (min-width: 800px) {
-  #imgText1, #imgText2 {
+  #img-text1, #img-text2 {
     position: relative;
     left: 60px;
     top: -230px;
     font-size: 35px;
   }
-  #imgText3 {
+  #img-text3 {
     position: relative;
     left: 30px;
     top: -140px;
     font-size: 35px;
   }
-  #aboutUsText {
+  #about-us-text {
     max-width: 375px;
     max-height: 580px;
     margin-left: 360px;
   }
-  #diamondImage {
+  #diamond-image {
     width: 370px;
     height: 490px;
     margin-top: -780px;
     margin-left: -10px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 330px;
     height: 450px;
     margin-top: -420px;
     margin-left: 430px;
   }
-  #servicesImg {
+  #services-img {
     width: 270px;
     height: 400px;
   }
 }
 @media only screen and (min-width: 1000px) {
-  #imgText1, #imgText2 {
+  #img-text1, #img-text2 {
     position: relative;
     left: 30px;
     top: -240px;
     font-size: 45px;
   }
-  #imgText3 {
+  #img-text3 {
     position: relative;
     left: 30px;
     top: -140px;
     font-size: 45px;
   }
-  #aboutUsText {
+  #about-us-text {
     max-width: 430px;
     max-height: 530px;
     margin-left: 500px;
   }
-  #diamondImage {
+  #diamond-image {
     width: 400px;
     height: 500px;
     margin-top: -670px;
     margin-left: 100px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 400px;
     height: 490px;
     margin-top: -430px;
     margin-left: 520px;
   }
-  #servicesImg {
+  #services-img {
     width: 310px;
     height: 400px;
   }
 }
 @media only screen and (min-width: 1200px) {
-  #imgText1 {
+  #img-text1 {
     position: relative;
     font-size: 50px;
     top: -300px;
     left: 100px;
   }
-  #imgText2 {
+  #img-text2 {
     position: relative;
     font-size: 55px;
     top: -280px;
     left: 100px;
   }
-  #imgText3 {
+  #img-text3 {
     position: relative;
     font-size: 30px;
     font-size: 50px;
     top: -180px;
     left: 100px;
   }
-  #aboutUsText {
+  #about-us-text {
     max-width: 460px;
     max-height: 530px;
     margin-left: 580px;
   }
-  #diamondImage {
+  #diamond-image {
     width: 400px;
     height: 500px;
     margin-top: -680px;
     margin-left: 180px;
   }
-  #ringIntro {
+  #ring-intro {
     max-width: 530px;
     max-height: 500px;
     margin-left: 100px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 400px;
     height: 500px;
     margin-top: -430px;
     margin-left: 700px;
   }
-  #servicesImg {
+  #services-img {
     width: 380px;
     height: 460px;
   }
 }
 @media only screen and (min-width: 1300px) {
-  #imgText1 {
+  #img-text1 {
     position: relative;
     font-size: 50px;
     top: -330px;
     left: 100px;
   }
-  #imgText2 {
+  #img-text2 {
     position: relative;
     font-size: 55px;
     top: -310px;
     left: 100px;
   }
-  #imgText3 {
+  #img-text3 {
     position: relative;
     font-size: 30px;
     font-size: 60px;
     top: -200px;
     left: 100px;
   }
-  #diamondImage {
+  #diamond-image {
     width: 400px;
     height: 500px;
     margin-top: -600px;
     margin-left: 300px;
   }
-  #ringIntro {
+  #ring-intro {
     width: 530px;
     height: 500px;
     margin-left: 100px;
   }
-  #ringIntroImg {
+  #ring-intro-img {
     width: 400px;
     height: 500px;
     margin-top: -460px;
     margin-left: 850px;
   }
-  #aboutUsText {
+  #about-us-text {
     width: 530px;
     height: 500px;
     margin-left: 700px;
   }
-  #servicesImg {
+  #services-img {
     width: 410px;
     height: 520px;
   }
